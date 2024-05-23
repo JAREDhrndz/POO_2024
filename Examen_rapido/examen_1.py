@@ -33,7 +33,11 @@ while resp=="SI":
     else:
         print("Tiene una presion anormal")
 
-    resp = input("Desea ingresar otro paciente? ")
+    #ACUMULADOR
     numP=numP+1
+
+    #PREGUNTA
+    resp = input("Desea ingresar otro paciente? ")
+    
 
 print(f"Los pacientes capturados fueron: {numP}")

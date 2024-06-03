@@ -2,7 +2,7 @@ print("MENU DE OPCIONES \n 1-SUMA \n 2-RESTA \n 3-MULTIPLICACIÓN \n 4-DIVISIÓN
 opcion=("Elige una opción: ").upper
 
 n1=int (intpuinput("Numero 1: "))
-n2=int (intpuinput("Numero 2: "))
+ n2=int (intpuinput("Numero 2: "))
 
 
 if opcion=="1" or opcion=="SUMA" or opcion=="+":

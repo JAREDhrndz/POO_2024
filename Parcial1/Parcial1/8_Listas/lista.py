@@ -35,6 +35,6 @@ buscar_p=input("Ingrese la palabra a buscar: ")
 
 i=0
 
-while i == len(buscar_p):
+while i < len(buscar_p):
     print(numeros[i])
     i+=1

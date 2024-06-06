@@ -51,5 +51,26 @@ for i in agenda:
      print(f"{agenda.index(i)+1}.-{i}")
     
 #crear un prgrama que ppermita gestionar  peliculas, colocar un menu de opciones para agregar, remover, consultar peliculas.
-# notas utilizar funciones y mandar llamar desde otro archivo 
+#notas utilizar funciones y mandar llamar desde otro archivo 
 #utilizar linea para alamcenar los nombres de las peliculas 
+
+def insertarPeliculas():
+    peliculas=input("Ingrese la pelicula: ")
+    peliculas.append(pelicula)
+    espereTecla()
+
+def removerPeliculas():
+    peliculas=input("Ingrese la pelicula: ")
+    peliculas.remove(pelicula)
+    espereTecla()
+
+peliculas=[]
+
+print("1-Agregar \n2-Remover \n3-Consulta \n4-SALIR")
+opcion=input("\t Elige una opcion: ").upper()
+
+if opcion=="1" or opcion=="AGREGAR":
+    insertarPeliculas()
+
+if opcion=="2" or opcion=="REMOVER":
+    removerPeliculas()

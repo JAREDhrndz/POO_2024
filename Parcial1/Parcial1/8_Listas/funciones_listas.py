@@ -12,7 +12,7 @@ print(numeros)
 numeros.sort()
 print(numeros)
 
-#agregar eementos a la lista
+#agregar elementos a la lista
 print(numeros)
 numeros.append(100)
 print(numeros)
@@ -24,4 +24,23 @@ print(numeros)
 print(numeros)
 numeros.remove(100)
 print(numeros)
-numeros.pop(5)
+numeros.pop(2)
+
+#Dar la vuelta a los elementos de una lista
+print(varios)
+varios.reverse()
+
+#Buscar un dato de una lista
+encontro="BRASIL" in paises
+print(encontro)
+
+#vaciar unalisa
+print(paises)
+paises.clear()
+print(paises)
+
+#unir listas
+print(varios)
+varios.extend(numeros)
+print(varios)
+    

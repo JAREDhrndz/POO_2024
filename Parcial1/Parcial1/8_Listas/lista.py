@@ -74,3 +74,7 @@ if opcion=="1" or opcion=="AGREGAR":
 
 if opcion=="2" or opcion=="REMOVER":
     removerPeliculas()
+
+    #carpetas
+    #google
+    #practica

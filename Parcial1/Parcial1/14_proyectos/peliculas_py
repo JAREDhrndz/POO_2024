@@ -1,0 +1,30 @@
+import funciones_peliculas
+
+peliculas = []
+
+print("1-Agregar \n2-Eliminar \n3-Actualizar \n4-Consultar \n5-Buscar \n6-Vaciar \n7-Salir")
+opcion = input("\t Elige una opcion: ").upper()
+
+while opcion != "7" and opcion != "SALIR":
+    if opcion == "1" or opcion == "AGREGAR":
+        funciones_peliculas.insertarPelicula(peliculas)
+
+    elif opcion == "2" or opcion == "ELIMINAR":
+        funciones_peliculas.eliminarPelicula(peliculas)
+
+    elif opcion == "3" or opcion == "ACTUALIZAR":
+        funciones_peliculas.actualizarPelicula(peliculas)
+
+    elif opcion == "4" or opcion == "CONSULTAR":
+        funciones_peliculas.consultarPeliculas(peliculas)
+
+    elif opcion == "5" or opcion == "BUSCAR":
+        funciones_peliculas.buscarPelicula(peliculas)
+
+    elif opcion == "6" or opcion == "VACIAR":
+        funciones_peliculas.vaciarLista(peliculas)
+
+    print("1-Agregar \n2-Eliminar \n3-Actualizar \n4-Consultar \n5-Buscar \n6-Vaciar \n7-Salir")
+    opcion = input("\t Elige una opcion: ").upper()
+
+print("Saliendo del programa...")

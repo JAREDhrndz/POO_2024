@@ -50,7 +50,7 @@ agenda=[
 for i in agenda:
      print(f"{agenda.index(i)+1}.-{i}")
     
-#crear un prgrama que ppermita gestionar  peliculas, colocar un menu de opciones para agregar, remover, consultar peliculas.
+#crear un prgrama que permita gestionar  peliculas, colocar un menu de opciones para agregar, remover, consultar peliculas.
 #notas utilizar funciones y mandar llamar desde otro archivo 
 #utilizar linea para alamcenar los nombres de las peliculas 
 
